@@ -26,7 +26,7 @@ session_start();
   
       if($x>0)
       {
-        header("location: getFriendlist.php");
+        header("location: userMenu.php");
       }else{
   
         echo"Wrong Details";
@@ -53,6 +53,12 @@ session_start();
   <title>
     Talk 2 Me
   </title>
+  <style>
+  .card-register{
+
+    opacity: .7;
+  }
+  </style>
   <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
   <!-- Extra details for Live View on GitHub Pages -->
   <!-- Canonical SEO -->
@@ -114,7 +120,7 @@ session_start();
   <nav class="navbar navbar-expand-lg bg-white fixed-top nav-down navbar-transparent" color-on-scroll="500">
     <div class="container">
       <div class="navbar-translate">
-        <a class="navbar-brand" href="../index.html" rel="tooltip" title="Paper Kit 2 PRO" data-placement="bottom" target="_blank">
+        <a class="navbar-brand" href="index.html" rel="tooltip" title="Home" data-placement="bottom" target="_blank">
          Talk 2 Me
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
@@ -128,7 +134,7 @@ session_start();
          
           <li class="nav-item">
             <a class="btn btn-round btn-danger" href="register.php" target="_blank">
-               Reister
+               Register
             </a>
           </li>
   
@@ -138,7 +144,7 @@ session_start();
   </nav>
   <!-- End Navbar -->
   <div class="wrapper">
-    <div class="page-header" style="background-image: url('../assets/img/sections/bruno-abatti.jpg');">
+    <div class="page-header" style="background-image: url('assets/img/sections/bruno-abatti.jpg');">
       <div class="filter"></div>
       <div class="container">
         <div class="row">
