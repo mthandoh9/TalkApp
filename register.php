@@ -57,6 +57,12 @@
   <title>
     Talk 2 Me
   </title>
+  <style>
+  .card-register{
+
+    opacity: .7;
+  }
+  </style>
   <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
   <!-- Extra details for Live View on GitHub Pages -->
   <!-- Canonical SEO -->
@@ -142,7 +148,7 @@
   </nav>
   <!-- End Navbar -->
   <div class="wrapper">
-    <div class="page-header" style="background-image: url('../assets/img/sections/bruno-abatti.jpg');">
+    <div class="page-header" style="background-image: url('assets/img/sections/bruno-abatti.jpg');">
       <div class="filter"></div>
       <div class="container">
         <div class="row">
